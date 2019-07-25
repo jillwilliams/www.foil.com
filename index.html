@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+1F334, UTF-8: F0 9F 8C B4" Unicode= "U+1F332, UTF-8: F0 9F 8C B2" Unicode= "U+00A9"  Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+1F440, UTF-8: F0 9F 91 80">
+    <title>FOIL</title>
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Patrick+Hand|Fresca" rel="stylesheet">
+    <link rel="stylesheet" HREF="./styles.css">
+    <meta name="description" content="Math">
+    <meta name="keywords" content="Foil, math, binomials">
+    <meta name="JW" content="Foil 2 Binomials">
+</head>
+<body>
+    <h2>
+        Calculating the 'PRODUCT' of two binomials of the form 
+        <br> 
+        (x + a)(x + b) 
+        <br> 
+        where variables a and b are 
+        <a href="#definition" target="_self">
+            real numbers.
+        </a> 
+        <br> 
+        This method is also commonly referred to as doing "FOIL".
+    </h2>
+    
+    <div id="realNumbers" onclick="definitionReveal()">
+        <p id="definition">
+            A 'Real' number is any number that is real;opposite of fake. Any number you can think of is defined as a 'Real' Number.
+            Later math courses will teach you about 'Imaginary' Numbers. 
+            Imaginary numbers are numbers that are a part of theoretical math that uses values for numbers that don't exist in real-life;hence the term 'imaginary'. Part of the conflict and the reason to decipher between these two different types of numbers seems pretty common-sense. It is important to know what types of calculations you are making. This is most prevelant and neccesary in the Math, Engineering,Physics, and the Sciences as well.  So, until you reach Algebra 2, just consider a Real Number is ANY number you can think of, like fractions, decimals, percents, whole numbers, integers, etc."
+        </p>
+    </div>
+
+
+        
+        
+        
+        
+        <div id="inputs" >
+            <p>(x +  <input type="text" id="varA">  )
+            (x +  <input type="text" id="varB">  ) 
+            </p>
+        </div> 
+    </h2>
+    <button type="submit" id="submitButton" onclick="myCalc( )">
+        SUBMIT
+    </button>
+    <p id="foilAnswer"></p>
+
+    <footer>
+        ©2019 ALL THINGS MATH&nbsp&nbspAll Rights Reserved
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
